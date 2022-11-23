@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 17-11-2022 a las 01:03:28
+-- Tiempo de generación: 23-11-2022 a las 20:32:46
 -- Versión del servidor: 8.0.17
 -- Versión de PHP: 7.3.10
 
@@ -38,7 +38,8 @@ CREATE TABLE `articulo` (
   `cant_existencia` int(11) NOT NULL,
   `precio_venta` decimal(18,2) NOT NULL,
   `precio_dolares` decimal(18,2) NOT NULL,
-  `costo_compra` decimal(18,2) NOT NULL
+  `costo_compra` decimal(18,2) NOT NULL,
+  `estado` enum('Activo','Inactivo') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
@@ -90,7 +91,8 @@ CREATE TABLE `venta` (
   `fecha` date NOT NULL,
   `hora` time NOT NULL,
   `tipo_pago` enum('Efectivo','Tarjeta') NOT NULL,
-  `total` decimal(18,2) NOT NULL
+  `total` decimal(18,2) NOT NULL,
+  `estado` enum('Activo','Inactivo') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
