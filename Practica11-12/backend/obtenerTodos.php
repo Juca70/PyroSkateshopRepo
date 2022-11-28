@@ -26,6 +26,20 @@ if ($result->num_rows > 0) {
         ", precio en dolares: ".$row["precio_dolares"].
         ", costo de compra: ".$row["costo_compra"].
         ", estado: ".$row["estado"]."<br>";
+        // // echo
+        // "<tr>".
+        //     "<th>".$row["id"]."</th>".
+        //     "<th>".$row["descripcion"]."</th>".
+        //     "<th>".$row["tipo"]."</th>".
+        //     "<th>".$row["categoria"]."</th>".
+        //     "<th>".$row["marca"]."</th>".
+        //     "<th>".$row["medida"]."</th>".
+        //     "<th>".$row["cant_existencia"]."</th>".
+        //     "<th>".$row["precio_venta"]."</th>".
+        //     "<th>".$row["precio_dolares"]."</th>".
+        //     "<th>".$row.["costo_compra"]."</th>".
+        //     "<th>".$row["estado"]."</th>".  
+        // "</tr>";
     }
 }
 else {

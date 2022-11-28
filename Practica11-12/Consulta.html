@@ -67,9 +67,9 @@
 
     <div class="consulta">
         <div class="barra_consulta">
-            <form>
-                <input type="text" id="searchterm" placeholder="Búscar artículo por descripción">
-                <button type="button" id="search">Buscar</button>
+            <form action="backend/obtenerTodos.php" method="post">
+                <input type="text" id="searchterm" name="busqueda" placeholder="Búscar artículo por descripción">
+                <input type="submit" id="search" value="Búscar">
             </form>
         </div>
 
@@ -79,8 +79,17 @@
                   <th>Id</th>
                   <th>Descripción</th>
                   <th>Tipo</th>
+                  <th>Categoría</th>
+                  <th>Marca</th>
+                  <th>Medida</th>
+                  <th>Cantidad</th>
+                  <th>Precio de venta</th>
+                  <th>Precio en dolares</th>
+                  <th>Costo de compra</th>
+                  <th>Estado</th>  
                 </tr>
-                <tr>
+                
+                <!-- <tr>
                   <td>Alfreds Futterkiste</td>
                   <td>Maria Anders</td>
                   <td>Germany</td>
@@ -110,7 +119,7 @@
                   <td>Giovanni Rovelli</td>
                   <td>Italy</td>
                 </tr>
-              </table>              
+              </table>               -->
         </div>
     </div>
 
