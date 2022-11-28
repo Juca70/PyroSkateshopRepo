@@ -18,9 +18,9 @@ namespace PISYS
         //Elimina la información de una tupla en una tabla
         void Eliminar(T obj);
         //Obtiene todas la tuplas de una tabla en una tabla
-        List<T> obtenerTodos();
+        List<T> ObtenerTodos();
         //Obtienen una tupla en especifico
-        T obtener(K id);
+        T Obtener(K id);
         
     }
 }
