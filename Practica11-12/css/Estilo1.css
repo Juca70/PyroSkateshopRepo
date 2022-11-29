@@ -4,6 +4,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
     position: relative;
     min-height: 100vh;
@@ -26,7 +31,7 @@ body {
 }
 
 .menuLateral {
-    position: absolute;
+    position: fixed;
     /*Diseño*/
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
@@ -69,6 +74,7 @@ body {
 }
 
 .btnVentanas:hover {
+    cursor: pointer;
     background-color: rgb(218, 218, 218);
 }
 
@@ -87,4 +93,39 @@ body {
 
 #logo {
     width: 90%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 850px;
+    margin-top: 13%;
+    margin-right: 15%;  
+    background-color: #ffffff;
+}
+
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 1vh 6px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.item:hover {
+    cursor: pointer;
+    background-color: rgb(218, 218, 218);
+}
+
+.icon_item {
+    height: 40px;
+}
+.btn_redic {
+    font-size: 20px;
 }
