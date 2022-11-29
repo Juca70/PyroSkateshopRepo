@@ -1,13 +1,4 @@
 
-<?php
-
-include("conexion.php");
-
-$sql = "SELECT * FROM articulo";
-$query = mysqli_query($conn,$sql);
-
-$row = mysqli_fetch_array($query);
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -78,18 +69,14 @@ $row = mysqli_fetch_array($query);
 
     <div class="consulta">
         <div class="barra_consulta">
-            <form action="backend/obtenerTodos.php" method="post">
-                <input type="text" id="searchterm" name="busqueda" placeholder="Búscar artículo por descripción">
-                <input type="submit" id="search" value="Búscar">
+            <form method="post">
+                <input type="text" id="searchterm" name="busqueda" placeholder="Buscar artículo por descripción">
+                <input type="submit" id="search" name="button" value="Buscar">
             </form>
         </div>
 
         <div class="tabla">
             <table>
-
-                <?php
-                    while($row=mysqli_fetch_array($query)){
-                ?>
 
                 <tr>
                   <th>Id</th>
@@ -105,24 +92,10 @@ $row = mysqli_fetch_array($query);
                   <th>Estado</th>  
                 </tr>
 
-                <tr>
-                  <th><?php echo $row['id']?></th>
-                  <th><?php echo $row['descripcion']?></th>
-                  <th><?php echo $row['tipo']?></th>
-                  <th><?php echo $row['categoria']?></th>
-                  <th><?php echo $row['marca']?></th>
-                  <th><?php echo $row['medida']?></th>
-                  <th><?php echo $row['cant_existencia']?></th>
-                  <th><?php echo $row['precio_venta']?></th>
-                  <th><?php echo $row['precio_dolares']?></th>
-                  <th><?php echo $row['costo_compra']?></th>
-                  <th><?php echo $row['estado']?></th>  
-                </tr>
-
                 <?php
-                    }
+                    include("backend/obtenerPor.php");
                 ?>
-
+                
             </table>
         </div>
     </div>

@@ -1,17 +1,20 @@
 <?php
 
-    //identificaciones para hacer la conexión a la base de datos
-    $host ="localhost";
+function conectar() {
+    $servername ="localhost";
     $username = "root";
-    $password = "Marzo2002";
+    $password = ""; //aqui va tu contraseña
 
     //nombre de la base de datos a la que se le hará conexión
     $database = "pyrodb";
 
-    session_start();
+    $conn = mysqli_connect($servername, $username, $password, $database);
 
-    $conn = mysqli_connect($host, $username, $password);
+    if (!$conn) {
+        die ("Connection failed".mysqli_connect_error());
+    }
 
-    mysql_select_db($conn,$database);
+    return $conn;
+}
 
 ?>
