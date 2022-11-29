@@ -59,8 +59,12 @@ body {
     list-style: none;
 }
 .menuLateral ul li a{
-   display: flexbox;
-   align-items: center;
+    display: flexbox;
+    align-items: center;
+}
+
+.container_principal{
+    width: 90vw;
 }
 
 .btnVentanas {
@@ -97,13 +101,13 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 850px;
     margin-top: 13%;
-    margin-right: 15%;  
-    background-color: #ffffff;
+    margin-right: 15%;
+    gap: 1rem;
 }
 
 .item {
