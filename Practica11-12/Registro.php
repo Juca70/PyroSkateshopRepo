@@ -253,49 +253,47 @@
     <h1><b>AGREGAR ARTÍCULOS</b></h1>
 
     <div class="testbox">
-        <form action="/">
+        <form method="post">
             <h2>Nuevo artículo</h2>
             <br>
             <hr>
             <div class="titless">
                 <h4 class="t1">Categoria</h4>
-                <h4 class="t2">Tipo</h4>
                 <h4 class="t3">Cantidad</h4>
             </div>
             <div class="title-block">
-                    <select>
+                    <select name="categoria" required>
                         <option value="title" selected>Selecciona categoria</option>
-                        <option value="acc">Accesories</option>
-                        <option value="bea">Bearings</option>
-                        <option value="dec">Decks</option>
-                        <option value="fle">Fleece</option>
-                        <option value="gar">Garment</option>
-                        <option value="gri">Griptape</option>
-                        <option value="har">Hardware</option>
-                        <option value="hat">Hats</option>
-                        <option value="pan">Pants</option>
-                        <option value="pro">Protecciones</option>
-                        <option value="ribu">Riser pads-bushing</option>
-                        <option value="sho">Shoes</option>
-                        <option value="soc">Socks</option>
-                        <option value="sti">Stickers</option>
-                        <option value="tsh">T-Shirt</option>
-                        <option value="tru">Truk</option>
-                        <option value="wax">Wax</option>
-                        <option value="whe">Wheels</option>
+                        <option name="1" value="Accesories">Accesories</option>
+                        <option name="2" value="Bearings">Bearings</option>
+                        <option name="3" value="Decks">Decks</option> <!--H-->
+                        <option name="4" value="Fleece">Fleece</option>
+                        <option name="5" value="Garment">Garment</option>
+                        <option name="6" value="Griptape">Griptape</option> <!--H-->
+                        <option name="7" value="Hardware">Hardware</option> <!--H-->
+                        <option name="8" value="Hats">Hats</option>
+                        <option name="9" value="Pants">Pants</option>
+                        <option name="10" value="Protecciones">Protecciones</option>
+                        <option name="11" value="Riser pads-bushing">Riser pads-bushing</option> <!--H-->
+                        <option name="12" value="Shoes">Shoes</option>
+                        <option name="13" value="Socks">Socks</option>
+                        <option name="14" value="Stickers">Stickers</option>
+                        <option name="15" value="T-Shirt">T-Shirt</option>
+                        <option name="16" value="Truk">Truk</option> <!--H-->
+                        <option name="17" value="Wax">Wax</option>
+                        <option name="18" value="Wheels">Wheels</option> <!--H-->
                     </select>
-                <input class="name" type="" name="name" placeholder="Tipo" />
-                <input class="name" type="number" name="name" placeholder="Cantidad" />
+                <input class="name" type="number" name="cantidad" placeholder="Cantidad" required/>
             </div>
             <h4>Descripción</h4>
-            <input type="text" name="name" placeholder="Descripción" />
+            <input type="text" name="descripcion" placeholder="Descripción" required/>
             <div class="titless">
                 <h4 class="t1">Marca</h4>
                 <h4 class="t2">Medida</h4>
             </div>
             <div class="title-block">
-                <input class="name" type="" name="name" placeholder="Marca" />
-                <input class="name" type="number" name="name" placeholder="Medida" />
+                <input class="name" type="" name="marca" placeholder="Marca" />
+                <input class="name" type="" name="medida" placeholder="Medida" />
             </div>
             <div class="titless">
                 <h4 class="t1">Precio de compra</h4>
@@ -303,17 +301,20 @@
                 <h4 class="t3">Precio de venta</h4>
             </div>
             <div class="title-block">
-                <input class="name" type="number" name="name" placeholder="Precio de compra" />
-                <input class="name" type="number" name="name" placeholder="Precio en dolares" />
-                <input class="name" type="number" name="name" placeholder="Precio de venta" />
+                <input class="name" type="number" name="precioCompra" placeholder="Precio de compra" required/>
+                <input class="name" type="number" name="precioDolar" placeholder="Precio en dolares" required/>
+                <input class="name" type="number" name="precioVenta" placeholder="Precio de venta" required/>
             </div>
             <br>
             <hr>
             <div class="btn-block">
                 <button type="submit" href="/">Cancelar</button>
-                <button type="submit" href="/">Guardar</button>
+                <button name="guardar" type="submit" href="/">Guardar</button>
             </div>
         </form>
+        <?php
+            include("backend/altas.php");
+        ?>
     </div>
 </body>
 
