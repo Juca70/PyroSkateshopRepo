@@ -168,3 +168,6 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+/*ALTAS*/
+INSERT INTO `articulo` (`id`, `categoria`, `tipo`, `descripcion`, `marca`, `medida`, `cant_existencia`, `costo_compra`, `costo_dolares`, `precio_venta`, `estado`) VALUES (NULL, 'Stickers', 'Softgoods', 'ALIEN WORKSHOP OG Logo', 'ALIEN WORKSHOP', NULL, '6', '0.00', '0.00', '20', 'Activo'), (NULL, 'Stickers', 'Softgoods', 'ATM Lowcard', 'ATM', NULL, '12', '0.00', '0.00', '10', 'Activo');
