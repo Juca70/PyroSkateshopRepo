@@ -171,3 +171,4 @@ COMMIT;
 
 /*ALTAS*/
 INSERT INTO `articulo` (`id`, `categoria`, `tipo`, `descripcion`, `marca`, `medida`, `cant_existencia`, `costo_compra`, `costo_dolares`, `precio_venta`, `estado`) VALUES (NULL, 'Stickers', 'Softgoods', 'ALIEN WORKSHOP OG Logo', 'ALIEN WORKSHOP', NULL, '6', '0.00', '0.00', '20', 'Activo'), (NULL, 'Stickers', 'Softgoods', 'ATM Lowcard', 'ATM', NULL, '12', '0.00', '0.00', '10', 'Activo');
+INSERT INTO `articulo` (`id`, `categoria`, `tipo`, `descripcion`, `marca`, `medida`, `cant_existencia`, `costo_compra`, `costo_dolares`, `precio_venta`, `estado`) VALUES (NULL, 'Pants', 'Softgoods', 'NIKE Performance Cargo Shorts', 'NIKE', '30', '1', '131.29', '6.91', '550', 'Activo'), (NULL, 'Pants', 'Softgoods', 'O\'NEILL Campbell Cargo Shorts Grn', 'O\'NEILL', '30', '1', '207.29', '10.91', '550', 'Activo');
