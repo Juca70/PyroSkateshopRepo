@@ -26,6 +26,8 @@ namespace PISYS.modelo.Table
 
         private string stringConnection;
 
+        private int a;
+
         public ArticuloTable(string stringConnection)
         {
             this.stringConnection = stringConnection;
