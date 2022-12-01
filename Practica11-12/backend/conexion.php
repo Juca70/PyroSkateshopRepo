@@ -3,7 +3,7 @@
 function conectar() {
     $servername ="localhost";
     $username = "root";
-    $password = ""; //aqui va tu contraseña
+    $password = "Marzo2002"; //aqui va tu contraseña
 
     //nombre de la base de datos a la que se le hará conexión
     $database = "pyrodb";
