@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PISYS.modelo;
+using PISYS.modelo.Table;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,15 @@ namespace PISYS
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            TableManager manager = new TableManager();
+
+            dataGridView1.DataSource = manager.ArticuloTable.ObtenerPorCategoria("Socks");
+
+           
         }
     }
 }
