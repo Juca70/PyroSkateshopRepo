@@ -1,0 +1,19 @@
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\Ejemplo Krypton.exe.config
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\Ejemplo Krypton.exe
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\Ejemplo Krypton.pdb
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo Krypton.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo Krypton.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo_Krypton.Form1.resources
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo_Krypton.PlantillaDeFormulario.resources
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo_Krypton.Properties.Resources.resources
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo Krypton.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo Krypton.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo Krypton.csproj.CopyComplete
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo Krypton.exe
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\obj\Debug\Ejemplo Krypton.pdb
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+C:\Users\DELL\source\repos\Ejemplo Krypton\Ejemplo Krypton\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
