@@ -18,6 +18,8 @@ namespace PISYS.modelo.Table
 
         private ArticuloTable articuloTable;
 
+        private CategoriaTable categoriaTable;
+
         public void TryConnection()
         {
             SqlConnection conn = null;
@@ -44,6 +46,19 @@ namespace PISYS.modelo.Table
                 }
 
                 return articuloTable;
+            }
+        }
+
+        public CategoriaTable Categoria
+        {
+            get
+            {
+                if (categoriaTable == null)
+                {
+                    return new CategoriaTable(stringConnection);
+                }
+
+                return categoriaTable;
             }
         }
 

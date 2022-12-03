@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ComponentFactory.Krypton.Toolkit;
+using PISYS.modelo.Entidades;
+using System;
 using System.CodeDom;
 using System.Collections;
 using System.Collections.Generic;
@@ -17,6 +19,7 @@ namespace PISYS.modelo.Table
         private const string SELECTALL = 
             "SELECT " +
             "A.id, " +
+            "C.id," +
             "C.descripcion, " +
             "C.tipo, " +
             "A.descripcion, " +
@@ -28,6 +31,9 @@ namespace PISYS.modelo.Table
             "A.precio_venta, " +
             "A.estado " +
             "FROM Articulo A INNER JOIN Categoria C ON A.categoria = C.id";
+
+        private const string SELECTBY = 
+            SELECTALL + " WHERE A.id = @id";
 
         private const string SELECTBYTIPO =
             SELECTALL + " WHERE C.tipo = @tipo";
@@ -42,10 +48,17 @@ namespace PISYS.modelo.Table
             "@preciov, @estado)";
 
         private const string UPDATE =
-            "UPDATE Articulo SET categoria = @cat, descripcion = @descrip, " +
-            "marca = @marca, medida = @medida, cant_existencias = @cant," +
-            "costo_compra = @costoc, costo_dolares = @costod, precio_venta = @preciov, " +
-            "estado = @estado WHERE id = @id";
+            "UPDATE Articulo SET " +
+            "categoria = @cat, " +
+            "descripcion = @descrip, " +
+            "marca = @marca, " +
+            "medida = @medida, " +
+            "cant_existencias = @cant," +
+            "costo_compra = @costoc, " +
+            "costo_dolares = @costod, " +
+            "precio_venta = @preciov, " +
+            "estado = @estado " +
+            "WHERE id = @id";
 
         private const string DELETE =
             "DELETE FROM Articulo WHERE id = @id";
@@ -57,38 +70,98 @@ namespace PISYS.modelo.Table
 
         public void Eliminar(Articulo obj)
         {
-            throw new NotImplementedException();
+            using (SqlConnection conn = new SqlConnection(stringConnection))
+            {
+                SqlCommand cmd = new SqlCommand(DELETE, conn);
+                cmd.Parameters.AddWithValue("@id", obj.Id);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
         }
 
         public void Insertar(Articulo obj)
         {
-            throw new NotImplementedException();
+            using (SqlConnection conn = new SqlConnection(stringConnection))
+            {
+                SqlCommand cmd = new SqlCommand(INSERT, conn);
+                cmd.Parameters.AddWithValue("@cat", obj.Categoria.Id);
+                cmd.Parameters.AddWithValue("@descrip", obj.Descripcion);
+                cmd.Parameters.AddWithValue("@marca", obj.Marca);
+                cmd.Parameters.AddWithValue("@medida", obj.Medida);
+                cmd.Parameters.AddWithValue("@cant", obj.CantExistencia);
+                cmd.Parameters.AddWithValue("@costc", obj.CostoCompra);
+                cmd.Parameters.AddWithValue("@costod", obj.CostoDolares);
+                cmd.Parameters.AddWithValue("@preciov", obj.PrecioVenta);
+                cmd.Parameters.AddWithValue("@estado", obj.Estado);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
         }
 
         public void Modifificar(Articulo obj)
         {
-            throw new NotImplementedException();
+            using (SqlConnection conn = new SqlConnection(stringConnection))
+            {
+                SqlCommand cmd = new SqlCommand(UPDATE, conn);
+                cmd.Parameters.AddWithValue("@cat", obj.Categoria.Id);
+                cmd.Parameters.AddWithValue("@descrip", obj.Descripcion);
+                cmd.Parameters.AddWithValue("@marca", obj.Marca);
+                cmd.Parameters.AddWithValue("@medida", obj.Medida);
+                cmd.Parameters.AddWithValue("@cant", obj.CantExistencia);
+                cmd.Parameters.AddWithValue("@costoc", obj.CostoCompra);
+                cmd.Parameters.AddWithValue("@costod", obj.CostoDolares);
+                cmd.Parameters.AddWithValue("@preciov", obj.PrecioVenta);
+                cmd.Parameters.AddWithValue("@estado", obj.Estado);
+                cmd.Parameters.AddWithValue("@id", obj.Id);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
         }
 
         public Articulo Obtener(int id)
         {
-            throw new NotImplementedException();
+            Articulo articulo = null;
+
+            using (SqlConnection conn = new SqlConnection(stringConnection))
+            {
+                SqlCommand command = new SqlCommand(SELECTBY, conn);
+                command.Parameters.AddWithValue("@id", id);
+
+                conn.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    articulo = Convertir(reader);
+                }
+            }
+
+            return articulo;
         }
 
         private Articulo Convertir(SqlDataReader reader)
         {
             Articulo obj = new Articulo();
             obj.Id = reader.GetInt32(0);
-            obj.Categoria = reader.GetString(1);
-            obj.Tipo = reader.GetString(2);
-            obj.Descripcion = reader.GetString(3);
-            obj.Marca = reader.GetString(4);
-            obj.Medida = reader.GetString(5);
-            obj.CantExistencia = reader.GetInt32(6);
-            obj.CostoCompra = reader.GetDecimal(7);
-            obj.CostoDolares = reader.GetDecimal(8);
-            obj.PrecioVenta = reader.GetDecimal(9);
-            obj.Estado = reader.GetString(10);
+
+            Categoria c = new Categoria();
+            c.Id = reader.GetInt32(1);
+            c.Descripcion = reader.GetString(2);
+            c.Tipo = reader.GetString(3);
+
+            obj.Categoria = c;
+            obj.Descripcion = reader.GetString(4);
+            obj.Marca = reader.GetString(5);
+            obj.Medida = reader.GetString(6);
+            obj.CantExistencia = reader.GetInt32(7);
+            obj.CostoCompra = reader.GetDecimal(8);
+            obj.CostoDolares = reader.GetDecimal(9);
+            obj.PrecioVenta = reader.GetDecimal(10);
+            obj.Estado = reader.GetString(11);
             return obj;
         }
         public List<Articulo> ObtenerTodos()

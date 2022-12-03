@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PISYS.modelo.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +10,7 @@ namespace PISYS.modelo
     public class Articulo
     {
         public int Id { get; set; }
-        public string Categoria { get; set; }
-        public string Tipo { get; set; }
+        public Categoria Categoria { get; set; }
         public string Descripcion { get; set; }
         public string Marca { get; set; }
         public string Medida { get; set; }

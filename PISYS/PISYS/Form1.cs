@@ -1,4 +1,5 @@
 ﻿using PISYS.modelo;
+using PISYS.modelo.Entidades;
 using PISYS.modelo.Table;
 using System;
 using System.Collections.Generic;
@@ -23,9 +24,42 @@ namespace PISYS
         {
             TableManager manager = new TableManager();
 
-            dataGridView1.DataSource = manager.ArticuloTable.ObtenerPorCategoria("Socks");
+            /*Articulo a = new Articulo();
+            a.Id = 22;
 
-           
+            Categoria c = new Categoria();
+            c.Id = 3;
+
+            a.Categoria = c;
+            a.Descripcion = "Patineta Bien Padre";
+            a.Marca = "La mejor";
+            a.Medida = "XXX";
+            a.CantExistencia = 100;
+            a.CostoCompra = 500;
+            a.CostoDolares = 20;
+            a.PrecioVenta = 750;
+            a.Estado = "Activo";
+
+            manager.ArticuloTable.Modifificar(a);*/
+            
+            List<Articulo> lista = manager.ArticuloTable.ObtenerPorTipo("Hardgoods");
+
+
+            foreach (Articulo a in lista)
+            {
+                int row = dataGridView1.Rows.Add();
+                dataGridView1.Rows[row].Cells[0].Value = a.Id;
+                dataGridView1.Rows[row].Cells[1].Value = a.Categoria.Descripcion;
+                dataGridView1.Rows[row].Cells[2].Value = a.Categoria.Tipo;
+                dataGridView1.Rows[row].Cells[3].Value = a.Descripcion;
+                dataGridView1.Rows[row].Cells[4].Value = a.Marca;
+                dataGridView1.Rows[row].Cells[5].Value = a.Medida;
+                dataGridView1.Rows[row].Cells[6].Value = a.CantExistencia;
+                dataGridView1.Rows[row].Cells[7].Value = a.CostoCompra;
+                dataGridView1.Rows[row].Cells[8].Value = a.CostoDolares;
+                dataGridView1.Rows[row].Cells[9].Value = a.PrecioVenta;
+                dataGridView1.Rows[row].Cells[10].Value = a.Estado;
+            }
         }
     }
 }

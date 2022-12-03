@@ -57,10 +57,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="modelo\Entidades\Articulo.cs" />
+    <Compile Include="modelo\Entidades\Categoria.cs" />
     <Compile Include="modelo\Entidades\DetalleVenta.cs" />
     <Compile Include="modelo\Table\ArticuloTable.cs" />
     <Compile Include="modelo\Entidades\Usuario.cs" />
     <Compile Include="modelo\Entidades\Venta.cs" />
+    <Compile Include="modelo\Table\CategoriaTable.cs" />
     <Compile Include="modelo\Table\TableManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
