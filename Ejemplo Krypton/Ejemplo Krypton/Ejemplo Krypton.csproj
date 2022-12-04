@@ -33,6 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Docking">
+      <HintPath>..\..\..\..\Documents\Krypton\Krypton-master\Bin\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e" />
+    <Reference Include="ComponentFactory.Krypton.Ribbon">
+      <HintPath>..\..\..\..\Documents\Krypton\Krypton-master\Bin\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+    </Reference>
     <Reference Include="ComponentFactory.Krypton.Toolkit">
       <HintPath>..\..\..\..\Documents\Krypton\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
     </Reference>
@@ -53,25 +60,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="F1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="F1.Designer.cs">
+      <DependentUpon>F1.cs</DependentUpon>
     </Compile>
-    <Compile Include="PlantillaDeFormulario.cs">
+    <Compile Include="PISYS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PlantillaDeFormulario.Designer.cs">
-      <DependentUpon>PlantillaDeFormulario.cs</DependentUpon>
+    <Compile Include="PISYS.Designer.cs">
+      <DependentUpon>PISYS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IniciarSesion.Designer.cs">
+      <DependentUpon>IniciarSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="F1.resx">
+      <DependentUpon>F1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PlantillaDeFormulario.resx">
-      <DependentUpon>PlantillaDeFormulario.cs</DependentUpon>
+    <EmbeddedResource Include="PISYS.resx">
+      <DependentUpon>PISYS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IniciarSesion.resx">
+      <DependentUpon>IniciarSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -179,6 +195,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ph_gear-six2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PyroskateshopLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

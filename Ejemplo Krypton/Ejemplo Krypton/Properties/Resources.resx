@@ -139,17 +139,20 @@
   <data name="LogoPyro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LogoPyro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Group 24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="añadir21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\añadir21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blanc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Frame 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Frame 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LogoPyro 140" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LogoPyro 140.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ph_gear-six2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ph_gear-six2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Vector2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vector2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +175,8 @@
   <data name="Icono Carrito" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icono Carrito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blanc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blanc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Agregar Artículo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Agregar Artículo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,7 +202,7 @@
   <data name="ph_gear-six" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ph_gear-six.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ph_gear-six2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ph_gear-six2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PyroskateshopLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PyroskateshopLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
