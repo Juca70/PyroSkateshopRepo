@@ -45,9 +45,10 @@ namespace PISYS
 
             Usuario usuario = manager.UsuarioTable.Obtener("Admin", "12345");
 
-            
-            
-            MessageBox.Show("Usuario: " + usuario.Nombre + " "+ usuario.Contraseña);
+            if (usuario != null)
+            {
+                MessageBox.Show("Usuario: " + usuario.Nombre + " " + usuario.Contraseña);
+            }
             
         }
     }
