@@ -41,42 +41,42 @@
             this.labelAgregarArticulo = new System.Windows.Forms.Label();
             this.kryptonButtonAgregarArticulo = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonSeparator1 = new ComponentFactory.Krypton.Toolkit.KryptonSeparator();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.toolStripRuta = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabelRuta = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripTextBoxFecha = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSesion = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButtonUsuario = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabelUsuario = new System.Windows.Forms.ToolStripLabel();
             this.kryptonPanelInicio = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.kryptonPanelAgregarArticulo = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.kryptonSeparator2 = new ComponentFactory.Krypton.Toolkit.KryptonSeparator();
+            this.label1 = new System.Windows.Forms.Label();
+            this.labelAgragarArticulo1 = new System.Windows.Forms.Label();
             this.labelHerramientasInicio = new System.Windows.Forms.Label();
+            this.pictureBoxHerramientasInicio = new System.Windows.Forms.PictureBox();
             this.labelReporteDeVentasInicio = new System.Windows.Forms.Label();
+            this.pictureBoxReporteDeVentasInicio = new System.Windows.Forms.PictureBox();
             this.labelRealizarVentaInicio = new System.Windows.Forms.Label();
+            this.pictureBoxRealizarVentaInicio = new System.Windows.Forms.PictureBox();
             this.labelInventarioInicio = new System.Windows.Forms.Label();
+            this.pictureBoxInventarioInicio = new System.Windows.Forms.PictureBox();
             this.kryptonButtonInventarioInicio = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.labelAgregarArticuloInicio = new System.Windows.Forms.Label();
+            this.pictureBoxAgregarArticuloInicio = new System.Windows.Forms.PictureBox();
             this.kryptonButtonHerramientasInicio = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButtonReporteDeVentasInicio = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButtonRealizarVentaInicio = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.kryptonButtonAgregarArticuloInicio = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.kryptonPanelAgregarArticulo = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
-            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripButtonUsuario = new System.Windows.Forms.ToolStripButton();
-            this.pictureBoxHerramientasInicio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxReporteDeVentasInicio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxRealizarVentaInicio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxInventarioInicio = new System.Windows.Forms.PictureBox();
-            this.pictureBoxAgregarArticuloInicio = new System.Windows.Forms.PictureBox();
-            this.labelAgragarArticulo1 = new System.Windows.Forms.Label();
-            this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.kryptonSeparator2 = new ComponentFactory.Krypton.Toolkit.KryptonSeparator();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1.Panel1)).BeginInit();
             this.kryptonSplitContainer1.Panel1.SuspendLayout();
@@ -84,21 +84,21 @@
             this.kryptonSplitContainer1.Panel2.SuspendLayout();
             this.kryptonSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSeparator1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.toolStripRuta.SuspendLayout();
             this.toolStripSesion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanelInicio)).BeginInit();
             this.kryptonPanelInicio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanelAgregarArticulo)).BeginInit();
             this.kryptonPanelAgregarArticulo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
+            this.kryptonPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonSeparator2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHerramientasInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxReporteDeVentasInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRealizarVentaInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInventarioInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAgregarArticuloInicio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
-            this.kryptonPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonSeparator2)).BeginInit();
             this.SuspendLayout();
             // 
             // kryptonSplitContainer1
@@ -130,7 +130,6 @@
             this.kryptonSplitContainer1.Panel1.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.kryptonSplitContainer1.Panel1.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.ContextMenuInner;
             this.kryptonSplitContainer1.Panel1.StateNormal.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Form;
-            this.kryptonSplitContainer1.Panel1.StateNormal.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             // 
             // kryptonSplitContainer1.Panel2
             // 
@@ -153,16 +152,13 @@
             this.kryptonButtonHerramientas.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonHerramientas.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonHerramientas.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonHerramientas.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonHerramientas.StateTracking.Back.ColorAngle = 0F;
             this.kryptonButtonHerramientas.StateTracking.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonHerramientas.StateTracking.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonHerramientas.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonHerramientas.StateTracking.Border.ColorAngle = 0F;
             this.kryptonButtonHerramientas.StateTracking.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonHerramientas.StateTracking.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonHerramientas.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonHerramientas.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonHerramientas.TabIndex = 12;
             this.kryptonButtonHerramientas.Values.Image = global::Ejemplo_Krypton.Properties.Resources.ph_gear_six;
             this.kryptonButtonHerramientas.Values.Text = "";
@@ -190,16 +186,13 @@
             this.kryptonButtonReporteDeVenta.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonReporteDeVenta.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonReporteDeVenta.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonReporteDeVenta.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonReporteDeVenta.StateTracking.Back.ColorAngle = 0F;
             this.kryptonButtonReporteDeVenta.StateTracking.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonReporteDeVenta.StateTracking.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonReporteDeVenta.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonReporteDeVenta.StateTracking.Border.ColorAngle = 0F;
             this.kryptonButtonReporteDeVenta.StateTracking.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonReporteDeVenta.StateTracking.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonReporteDeVenta.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonReporteDeVenta.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonReporteDeVenta.TabIndex = 10;
             this.kryptonButtonReporteDeVenta.Values.Image = global::Ejemplo_Krypton.Properties.Resources.tabler_report;
             this.kryptonButtonReporteDeVenta.Values.Text = "";
@@ -227,16 +220,13 @@
             this.kryptonButtonRealizarVentas.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonRealizarVentas.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonRealizarVentas.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonRealizarVentas.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonRealizarVentas.StateTracking.Back.ColorAngle = 0F;
             this.kryptonButtonRealizarVentas.StateTracking.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonRealizarVentas.StateTracking.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonRealizarVentas.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonRealizarVentas.StateTracking.Border.ColorAngle = 0F;
             this.kryptonButtonRealizarVentas.StateTracking.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonRealizarVentas.StateTracking.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonRealizarVentas.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonRealizarVentas.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonRealizarVentas.TabIndex = 8;
             this.kryptonButtonRealizarVentas.Values.Image = global::Ejemplo_Krypton.Properties.Resources.Icono_Carritob;
             this.kryptonButtonRealizarVentas.Values.Text = "";
@@ -276,16 +266,13 @@
             this.kryptonButtonConsultarArticulo.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonConsultarArticulo.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonConsultarArticulo.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonConsultarArticulo.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonConsultarArticulo.StateTracking.Back.ColorAngle = 0F;
             this.kryptonButtonConsultarArticulo.StateTracking.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonConsultarArticulo.StateTracking.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonConsultarArticulo.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonConsultarArticulo.StateTracking.Border.ColorAngle = 0F;
             this.kryptonButtonConsultarArticulo.StateTracking.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonConsultarArticulo.StateTracking.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonConsultarArticulo.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonConsultarArticulo.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonConsultarArticulo.TabIndex = 4;
             this.kryptonButtonConsultarArticulo.Values.Image = global::Ejemplo_Krypton.Properties.Resources.Icono_Consultar;
             this.kryptonButtonConsultarArticulo.Values.Text = "";
@@ -313,16 +300,13 @@
             this.kryptonButtonAgregarArticulo.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonAgregarArticulo.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonAgregarArticulo.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonAgregarArticulo.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticulo.StateTracking.Back.ColorAngle = 0F;
             this.kryptonButtonAgregarArticulo.StateTracking.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonAgregarArticulo.StateTracking.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonAgregarArticulo.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticulo.StateTracking.Border.ColorAngle = 0F;
             this.kryptonButtonAgregarArticulo.StateTracking.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonAgregarArticulo.StateTracking.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonAgregarArticulo.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonAgregarArticulo.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticulo.TabIndex = 2;
             this.kryptonButtonAgregarArticulo.Values.Image = global::Ejemplo_Krypton.Properties.Resources.Vector2;
             this.kryptonButtonAgregarArticulo.Values.Text = "";
@@ -338,6 +322,17 @@
             this.kryptonSeparator1.SeparatorStyle = ComponentFactory.Krypton.Toolkit.SeparatorStyle.LowProfile;
             this.kryptonSeparator1.Size = new System.Drawing.Size(172, 6);
             this.kryptonSeparator1.TabIndex = 1;
+            // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.BackgroundImage = global::Ejemplo_Krypton.Properties.Resources.LogoPyro_140;
+            this.pictureBoxLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(15, 4);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(140, 140);
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
+            this.pictureBoxLogo.Click += new System.EventHandler(this.pictureBoxLogo_Click);
             // 
             // toolStripRuta
             // 
@@ -377,10 +372,19 @@
             // toolStripTextBoxFecha
             // 
             this.toolStripTextBoxFecha.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripTextBoxFecha.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBoxFecha.Name = "toolStripTextBoxFecha";
             this.toolStripTextBoxFecha.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.toolStripTextBoxFecha.Size = new System.Drawing.Size(100, 45);
             this.toolStripTextBoxFecha.Text = "Hoy MM DD, YYYY";
+            // 
+            // toolStripLabel4
+            // 
+            this.toolStripLabel4.Image = global::Ejemplo_Krypton.Properties.Resources.blanc2;
+            this.toolStripLabel4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripLabel4.Name = "toolStripLabel4";
+            this.toolStripLabel4.Size = new System.Drawing.Size(61, 42);
+            this.toolStripLabel4.Text = "    ";
             // 
             // toolStripSesion
             // 
@@ -402,6 +406,17 @@
             this.toolStripLabel2.Name = "toolStripLabel2";
             this.toolStripLabel2.Size = new System.Drawing.Size(25, 49);
             this.toolStripLabel2.Text = "      ";
+            // 
+            // toolStripButtonUsuario
+            // 
+            this.toolStripButtonUsuario.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButtonUsuario.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonUsuario.Image = global::Ejemplo_Krypton.Properties.Resources.Group_241;
+            this.toolStripButtonUsuario.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonUsuario.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonUsuario.Name = "toolStripButtonUsuario";
+            this.toolStripButtonUsuario.Size = new System.Drawing.Size(49, 49);
+            this.toolStripButtonUsuario.Text = "toolStripButton1";
             // 
             // toolStripLabelUsuario
             // 
@@ -436,6 +451,102 @@
             this.kryptonPanelInicio.Size = new System.Drawing.Size(1090, 681);
             this.kryptonPanelInicio.TabIndex = 20;
             // 
+            // kryptonPanelAgregarArticulo
+            // 
+            this.kryptonPanelAgregarArticulo.Controls.Add(this.kryptonPanel1);
+            this.kryptonPanelAgregarArticulo.Controls.Add(this.labelAgragarArticulo1);
+            this.kryptonPanelAgregarArticulo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.kryptonPanelAgregarArticulo.Location = new System.Drawing.Point(0, 0);
+            this.kryptonPanelAgregarArticulo.Name = "kryptonPanelAgregarArticulo";
+            this.kryptonPanelAgregarArticulo.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.ContextMenuItemImage;
+            this.kryptonPanelAgregarArticulo.Size = new System.Drawing.Size(1090, 681);
+            this.kryptonPanelAgregarArticulo.TabIndex = 35;
+            // 
+            // kryptonPanel1
+            // 
+            this.kryptonPanel1.Controls.Add(this.comboBox1);
+            this.kryptonPanel1.Controls.Add(this.label4);
+            this.kryptonPanel1.Controls.Add(this.label3);
+            this.kryptonPanel1.Controls.Add(this.label2);
+            this.kryptonPanel1.Controls.Add(this.kryptonSeparator2);
+            this.kryptonPanel1.Controls.Add(this.label1);
+            this.kryptonPanel1.Location = new System.Drawing.Point(33, 172);
+            this.kryptonPanel1.Name = "kryptonPanel1";
+            this.kryptonPanel1.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.ContextMenuHeading;
+            this.kryptonPanel1.Size = new System.Drawing.Size(1019, 478);
+            this.kryptonPanel1.TabIndex = 1;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.White;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(48, 220);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(280, 21);
+            this.comboBox1.TabIndex = 10;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(831, 61);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(148, 22);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Nuevo artículo";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(443, 61);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(148, 22);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Nuevo artículo";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(13, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(148, 22);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Nuevo artículo";
+            // 
+            // kryptonSeparator2
+            // 
+            this.kryptonSeparator2.Location = new System.Drawing.Point(0, 42);
+            this.kryptonSeparator2.Name = "kryptonSeparator2";
+            this.kryptonSeparator2.Size = new System.Drawing.Size(1019, 3);
+            this.kryptonSeparator2.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(13, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(148, 22);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Nuevo artículo";
+            // 
+            // labelAgragarArticulo1
+            // 
+            this.labelAgragarArticulo1.AutoSize = true;
+            this.labelAgragarArticulo1.BackColor = System.Drawing.Color.Transparent;
+            this.labelAgragarArticulo1.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAgragarArticulo1.Location = new System.Drawing.Point(29, 130);
+            this.labelAgragarArticulo1.Name = "labelAgragarArticulo1";
+            this.labelAgragarArticulo1.Size = new System.Drawing.Size(210, 22);
+            this.labelAgragarArticulo1.TabIndex = 0;
+            this.labelAgragarArticulo1.Text = "AGREGAR ARTÍCULOS";
+            // 
             // labelHerramientasInicio
             // 
             this.labelHerramientasInicio.BackColor = System.Drawing.Color.Transparent;
@@ -448,6 +559,18 @@
             this.labelHerramientasInicio.TabIndex = 34;
             this.labelHerramientasInicio.Text = "Herramientas";
             this.labelHerramientasInicio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxHerramientasInicio
+            // 
+            this.pictureBoxHerramientasInicio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxHerramientasInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxHerramientasInicio.Image = global::Ejemplo_Krypton.Properties.Resources.ph_gear_six2;
+            this.pictureBoxHerramientasInicio.Location = new System.Drawing.Point(736, 404);
+            this.pictureBoxHerramientasInicio.Name = "pictureBoxHerramientasInicio";
+            this.pictureBoxHerramientasInicio.Size = new System.Drawing.Size(70, 70);
+            this.pictureBoxHerramientasInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxHerramientasInicio.TabIndex = 33;
+            this.pictureBoxHerramientasInicio.TabStop = false;
             // 
             // labelReporteDeVentasInicio
             // 
@@ -462,6 +585,18 @@
             this.labelReporteDeVentasInicio.Text = "Reporte de ventas";
             this.labelReporteDeVentasInicio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBoxReporteDeVentasInicio
+            // 
+            this.pictureBoxReporteDeVentasInicio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxReporteDeVentasInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxReporteDeVentasInicio.Image = global::Ejemplo_Krypton.Properties.Resources.tabler_report2;
+            this.pictureBoxReporteDeVentasInicio.Location = new System.Drawing.Point(509, 401);
+            this.pictureBoxReporteDeVentasInicio.Name = "pictureBoxReporteDeVentasInicio";
+            this.pictureBoxReporteDeVentasInicio.Size = new System.Drawing.Size(70, 70);
+            this.pictureBoxReporteDeVentasInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxReporteDeVentasInicio.TabIndex = 31;
+            this.pictureBoxReporteDeVentasInicio.TabStop = false;
+            // 
             // labelRealizarVentaInicio
             // 
             this.labelRealizarVentaInicio.BackColor = System.Drawing.Color.Transparent;
@@ -474,6 +609,18 @@
             this.labelRealizarVentaInicio.TabIndex = 30;
             this.labelRealizarVentaInicio.Text = "Realizar ventas";
             this.labelRealizarVentaInicio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxRealizarVentaInicio
+            // 
+            this.pictureBoxRealizarVentaInicio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxRealizarVentaInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxRealizarVentaInicio.Image = global::Ejemplo_Krypton.Properties.Resources.Icono_Carrito2;
+            this.pictureBoxRealizarVentaInicio.Location = new System.Drawing.Point(280, 408);
+            this.pictureBoxRealizarVentaInicio.Name = "pictureBoxRealizarVentaInicio";
+            this.pictureBoxRealizarVentaInicio.Size = new System.Drawing.Size(69, 60);
+            this.pictureBoxRealizarVentaInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxRealizarVentaInicio.TabIndex = 29;
+            this.pictureBoxRealizarVentaInicio.TabStop = false;
             // 
             // labelInventarioInicio
             // 
@@ -488,6 +635,18 @@
             this.labelInventarioInicio.Text = "Inventario";
             this.labelInventarioInicio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBoxInventarioInicio
+            // 
+            this.pictureBoxInventarioInicio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxInventarioInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxInventarioInicio.Image = global::Ejemplo_Krypton.Properties.Resources.Icono_Consultar2;
+            this.pictureBoxInventarioInicio.Location = new System.Drawing.Point(630, 215);
+            this.pictureBoxInventarioInicio.Name = "pictureBoxInventarioInicio";
+            this.pictureBoxInventarioInicio.Size = new System.Drawing.Size(51, 58);
+            this.pictureBoxInventarioInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxInventarioInicio.TabIndex = 27;
+            this.pictureBoxInventarioInicio.TabStop = false;
+            // 
             // kryptonButtonInventarioInicio
             // 
             this.kryptonButtonInventarioInicio.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -497,36 +656,30 @@
             this.kryptonButtonInventarioInicio.Size = new System.Drawing.Size(190, 170);
             this.kryptonButtonInventarioInicio.StateCommon.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonInventarioInicio.StateCommon.Back.Color2 = System.Drawing.Color.Transparent;
-            this.kryptonButtonInventarioInicio.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonInventarioInicio.StateNormal.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonInventarioInicio.StateNormal.Back.Color2 = System.Drawing.Color.Transparent;
             this.kryptonButtonInventarioInicio.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonInventarioInicio.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonInventarioInicio.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonInventarioInicio.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonInventarioInicio.StatePressed.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonInventarioInicio.StatePressed.Back.Color2 = System.Drawing.Color.Transparent;
             this.kryptonButtonInventarioInicio.StatePressed.Back.ColorAngle = 0F;
             this.kryptonButtonInventarioInicio.StatePressed.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonInventarioInicio.StatePressed.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonInventarioInicio.StatePressed.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonInventarioInicio.StatePressed.Border.ColorAngle = 0F;
             this.kryptonButtonInventarioInicio.StatePressed.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonInventarioInicio.StatePressed.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonInventarioInicio.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonInventarioInicio.StatePressed.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonInventarioInicio.StatePressed.Content.AdjacentGap = 0;
             this.kryptonButtonInventarioInicio.StatePressed.Content.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonInventarioInicio.StatePressed.Content.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonInventarioInicio.StateTracking.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonInventarioInicio.StateTracking.Back.Color2 = System.Drawing.Color.Transparent;
-            this.kryptonButtonInventarioInicio.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonInventarioInicio.StateTracking.Border.Color1 = System.Drawing.Color.Silver;
             this.kryptonButtonInventarioInicio.StateTracking.Border.Color2 = System.Drawing.Color.Silver;
             this.kryptonButtonInventarioInicio.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButtonInventarioInicio.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonInventarioInicio.TabIndex = 26;
             this.kryptonButtonInventarioInicio.Values.Text = "";
             // 
@@ -543,6 +696,18 @@
             this.labelAgregarArticuloInicio.Text = "Agregar artículo";
             this.labelAgregarArticuloInicio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBoxAgregarArticuloInicio
+            // 
+            this.pictureBoxAgregarArticuloInicio.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxAgregarArticuloInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxAgregarArticuloInicio.Image = global::Ejemplo_Krypton.Properties.Resources.añadir21;
+            this.pictureBoxAgregarArticuloInicio.Location = new System.Drawing.Point(406, 215);
+            this.pictureBoxAgregarArticuloInicio.Name = "pictureBoxAgregarArticuloInicio";
+            this.pictureBoxAgregarArticuloInicio.Size = new System.Drawing.Size(55, 55);
+            this.pictureBoxAgregarArticuloInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxAgregarArticuloInicio.TabIndex = 24;
+            this.pictureBoxAgregarArticuloInicio.TabStop = false;
+            // 
             // kryptonButtonHerramientasInicio
             // 
             this.kryptonButtonHerramientasInicio.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -552,28 +717,23 @@
             this.kryptonButtonHerramientasInicio.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonHerramientasInicio.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonHerramientasInicio.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonHerramientasInicio.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonHerramientasInicio.StatePressed.Back.ColorAngle = 0F;
             this.kryptonButtonHerramientasInicio.StatePressed.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonHerramientasInicio.StatePressed.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonHerramientasInicio.StatePressed.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonHerramientasInicio.StatePressed.Border.ColorAngle = 0F;
             this.kryptonButtonHerramientasInicio.StatePressed.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonHerramientasInicio.StatePressed.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonHerramientasInicio.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonHerramientasInicio.StatePressed.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonHerramientasInicio.StatePressed.Content.AdjacentGap = 0;
             this.kryptonButtonHerramientasInicio.StatePressed.Content.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonHerramientasInicio.StatePressed.Content.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonHerramientasInicio.StateTracking.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonHerramientasInicio.StateTracking.Back.Color2 = System.Drawing.Color.Transparent;
-            this.kryptonButtonHerramientasInicio.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonHerramientasInicio.StateTracking.Border.Color1 = System.Drawing.Color.Silver;
             this.kryptonButtonHerramientasInicio.StateTracking.Border.Color2 = System.Drawing.Color.Silver;
             this.kryptonButtonHerramientasInicio.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButtonHerramientasInicio.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonHerramientasInicio.TabIndex = 23;
             this.kryptonButtonHerramientasInicio.Values.Text = "";
             // 
@@ -586,28 +746,23 @@
             this.kryptonButtonReporteDeVentasInicio.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonReporteDeVentasInicio.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonReporteDeVentasInicio.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonReporteDeVentasInicio.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Back.ColorAngle = 0F;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonReporteDeVentasInicio.StatePressed.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Border.ColorAngle = 0F;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonReporteDeVentasInicio.StatePressed.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Content.AdjacentGap = 0;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Content.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonReporteDeVentasInicio.StatePressed.Content.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonReporteDeVentasInicio.StateTracking.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonReporteDeVentasInicio.StateTracking.Back.Color2 = System.Drawing.Color.Transparent;
-            this.kryptonButtonReporteDeVentasInicio.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonReporteDeVentasInicio.StateTracking.Border.Color1 = System.Drawing.Color.Silver;
             this.kryptonButtonReporteDeVentasInicio.StateTracking.Border.Color2 = System.Drawing.Color.Silver;
             this.kryptonButtonReporteDeVentasInicio.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButtonReporteDeVentasInicio.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonReporteDeVentasInicio.TabIndex = 22;
             this.kryptonButtonReporteDeVentasInicio.Values.Text = "";
             // 
@@ -621,28 +776,23 @@
             this.kryptonButtonRealizarVentaInicio.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonRealizarVentaInicio.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonRealizarVentaInicio.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonRealizarVentaInicio.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Back.ColorAngle = 0F;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonRealizarVentaInicio.StatePressed.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Border.ColorAngle = 0F;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonRealizarVentaInicio.StatePressed.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Content.AdjacentGap = 0;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Content.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonRealizarVentaInicio.StatePressed.Content.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonRealizarVentaInicio.StateTracking.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonRealizarVentaInicio.StateTracking.Back.Color2 = System.Drawing.Color.Transparent;
-            this.kryptonButtonRealizarVentaInicio.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonRealizarVentaInicio.StateTracking.Border.Color1 = System.Drawing.Color.Silver;
             this.kryptonButtonRealizarVentaInicio.StateTracking.Border.Color2 = System.Drawing.Color.Silver;
             this.kryptonButtonRealizarVentaInicio.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButtonRealizarVentaInicio.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonRealizarVentaInicio.TabIndex = 21;
             this.kryptonButtonRealizarVentaInicio.Values.Text = "";
             // 
@@ -655,224 +805,32 @@
             this.kryptonButtonAgregarArticuloInicio.Size = new System.Drawing.Size(190, 170);
             this.kryptonButtonAgregarArticuloInicio.StateCommon.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonAgregarArticuloInicio.StateCommon.Back.Color2 = System.Drawing.Color.Transparent;
-            this.kryptonButtonAgregarArticuloInicio.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticuloInicio.StateNormal.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonAgregarArticuloInicio.StateNormal.Back.Color2 = System.Drawing.Color.Transparent;
             this.kryptonButtonAgregarArticuloInicio.StateNormal.Back.ColorAngle = 0F;
             this.kryptonButtonAgregarArticuloInicio.StateNormal.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonAgregarArticuloInicio.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonAgregarArticuloInicio.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Back.Color2 = System.Drawing.Color.Transparent;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Back.ColorAngle = 0F;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Back.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonAgregarArticuloInicio.StatePressed.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Border.ColorAngle = 0F;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.None;
-            this.kryptonButtonAgregarArticuloInicio.StatePressed.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Content.AdjacentGap = 0;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Content.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonAgregarArticuloInicio.StatePressed.Content.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.kryptonButtonAgregarArticuloInicio.StateTracking.Back.Color1 = System.Drawing.Color.Transparent;
             this.kryptonButtonAgregarArticuloInicio.StateTracking.Back.Color2 = System.Drawing.Color.Transparent;
-            this.kryptonButtonAgregarArticuloInicio.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticuloInicio.StateTracking.Border.Color1 = System.Drawing.Color.Silver;
             this.kryptonButtonAgregarArticuloInicio.StateTracking.Border.Color2 = System.Drawing.Color.Silver;
             this.kryptonButtonAgregarArticuloInicio.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButtonAgregarArticuloInicio.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonButtonAgregarArticuloInicio.TabIndex = 20;
             this.kryptonButtonAgregarArticuloInicio.Values.Text = "";
-            // 
-            // kryptonPanelAgregarArticulo
-            // 
-            this.kryptonPanelAgregarArticulo.Controls.Add(this.kryptonPanel1);
-            this.kryptonPanelAgregarArticulo.Controls.Add(this.labelAgragarArticulo1);
-            this.kryptonPanelAgregarArticulo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kryptonPanelAgregarArticulo.Location = new System.Drawing.Point(0, 0);
-            this.kryptonPanelAgregarArticulo.Name = "kryptonPanelAgregarArticulo";
-            this.kryptonPanelAgregarArticulo.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.ContextMenuItemImage;
-            this.kryptonPanelAgregarArticulo.Size = new System.Drawing.Size(1090, 681);
-            this.kryptonPanelAgregarArticulo.TabIndex = 35;
-            // 
-            // pictureBoxLogo
-            // 
-            this.pictureBoxLogo.BackgroundImage = global::Ejemplo_Krypton.Properties.Resources.LogoPyro_140;
-            this.pictureBoxLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(15, 4);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(140, 140);
-            this.pictureBoxLogo.TabIndex = 0;
-            this.pictureBoxLogo.TabStop = false;
-            this.pictureBoxLogo.Click += new System.EventHandler(this.pictureBoxLogo_Click);
-            // 
-            // toolStripLabel4
-            // 
-            this.toolStripLabel4.Image = global::Ejemplo_Krypton.Properties.Resources.blanc2;
-            this.toolStripLabel4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripLabel4.Name = "toolStripLabel4";
-            this.toolStripLabel4.Size = new System.Drawing.Size(61, 42);
-            this.toolStripLabel4.Text = "    ";
-            // 
-            // toolStripButtonUsuario
-            // 
-            this.toolStripButtonUsuario.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButtonUsuario.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonUsuario.Image = global::Ejemplo_Krypton.Properties.Resources.Group_241;
-            this.toolStripButtonUsuario.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButtonUsuario.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonUsuario.Name = "toolStripButtonUsuario";
-            this.toolStripButtonUsuario.Size = new System.Drawing.Size(49, 49);
-            this.toolStripButtonUsuario.Text = "toolStripButton1";
-            // 
-            // pictureBoxHerramientasInicio
-            // 
-            this.pictureBoxHerramientasInicio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxHerramientasInicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxHerramientasInicio.Image = global::Ejemplo_Krypton.Properties.Resources.ph_gear_six2;
-            this.pictureBoxHerramientasInicio.Location = new System.Drawing.Point(736, 404);
-            this.pictureBoxHerramientasInicio.Name = "pictureBoxHerramientasInicio";
-            this.pictureBoxHerramientasInicio.Size = new System.Drawing.Size(70, 70);
-            this.pictureBoxHerramientasInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxHerramientasInicio.TabIndex = 33;
-            this.pictureBoxHerramientasInicio.TabStop = false;
-            // 
-            // pictureBoxReporteDeVentasInicio
-            // 
-            this.pictureBoxReporteDeVentasInicio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxReporteDeVentasInicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxReporteDeVentasInicio.Image = global::Ejemplo_Krypton.Properties.Resources.tabler_report2;
-            this.pictureBoxReporteDeVentasInicio.Location = new System.Drawing.Point(509, 401);
-            this.pictureBoxReporteDeVentasInicio.Name = "pictureBoxReporteDeVentasInicio";
-            this.pictureBoxReporteDeVentasInicio.Size = new System.Drawing.Size(70, 70);
-            this.pictureBoxReporteDeVentasInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxReporteDeVentasInicio.TabIndex = 31;
-            this.pictureBoxReporteDeVentasInicio.TabStop = false;
-            // 
-            // pictureBoxRealizarVentaInicio
-            // 
-            this.pictureBoxRealizarVentaInicio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxRealizarVentaInicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxRealizarVentaInicio.Image = global::Ejemplo_Krypton.Properties.Resources.Icono_Carrito2;
-            this.pictureBoxRealizarVentaInicio.Location = new System.Drawing.Point(280, 408);
-            this.pictureBoxRealizarVentaInicio.Name = "pictureBoxRealizarVentaInicio";
-            this.pictureBoxRealizarVentaInicio.Size = new System.Drawing.Size(69, 60);
-            this.pictureBoxRealizarVentaInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxRealizarVentaInicio.TabIndex = 29;
-            this.pictureBoxRealizarVentaInicio.TabStop = false;
-            // 
-            // pictureBoxInventarioInicio
-            // 
-            this.pictureBoxInventarioInicio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxInventarioInicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxInventarioInicio.Image = global::Ejemplo_Krypton.Properties.Resources.Icono_Consultar2;
-            this.pictureBoxInventarioInicio.Location = new System.Drawing.Point(630, 215);
-            this.pictureBoxInventarioInicio.Name = "pictureBoxInventarioInicio";
-            this.pictureBoxInventarioInicio.Size = new System.Drawing.Size(51, 58);
-            this.pictureBoxInventarioInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxInventarioInicio.TabIndex = 27;
-            this.pictureBoxInventarioInicio.TabStop = false;
-            // 
-            // pictureBoxAgregarArticuloInicio
-            // 
-            this.pictureBoxAgregarArticuloInicio.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxAgregarArticuloInicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxAgregarArticuloInicio.Image = global::Ejemplo_Krypton.Properties.Resources.añadir21;
-            this.pictureBoxAgregarArticuloInicio.Location = new System.Drawing.Point(406, 215);
-            this.pictureBoxAgregarArticuloInicio.Name = "pictureBoxAgregarArticuloInicio";
-            this.pictureBoxAgregarArticuloInicio.Size = new System.Drawing.Size(55, 55);
-            this.pictureBoxAgregarArticuloInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxAgregarArticuloInicio.TabIndex = 24;
-            this.pictureBoxAgregarArticuloInicio.TabStop = false;
-            // 
-            // labelAgragarArticulo1
-            // 
-            this.labelAgragarArticulo1.AutoSize = true;
-            this.labelAgragarArticulo1.BackColor = System.Drawing.Color.Transparent;
-            this.labelAgragarArticulo1.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAgragarArticulo1.Location = new System.Drawing.Point(29, 130);
-            this.labelAgragarArticulo1.Name = "labelAgragarArticulo1";
-            this.labelAgragarArticulo1.Size = new System.Drawing.Size(210, 22);
-            this.labelAgragarArticulo1.TabIndex = 0;
-            this.labelAgragarArticulo1.Text = "AGREGAR ARTÍCULOS";
-            // 
-            // kryptonPanel1
-            // 
-            this.kryptonPanel1.Controls.Add(this.comboBox1);
-            this.kryptonPanel1.Controls.Add(this.label4);
-            this.kryptonPanel1.Controls.Add(this.label3);
-            this.kryptonPanel1.Controls.Add(this.label2);
-            this.kryptonPanel1.Controls.Add(this.kryptonSeparator2);
-            this.kryptonPanel1.Controls.Add(this.label1);
-            this.kryptonPanel1.Location = new System.Drawing.Point(33, 172);
-            this.kryptonPanel1.Name = "kryptonPanel1";
-            this.kryptonPanel1.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.ContextMenuHeading;
-            this.kryptonPanel1.Size = new System.Drawing.Size(1019, 478);
-            this.kryptonPanel1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 22);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Nuevo artículo";
-            // 
-            // kryptonSeparator2
-            // 
-            this.kryptonSeparator2.Location = new System.Drawing.Point(0, 42);
-            this.kryptonSeparator2.Name = "kryptonSeparator2";
-            this.kryptonSeparator2.Size = new System.Drawing.Size(1019, 3);
-            this.kryptonSeparator2.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 61);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(148, 22);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Nuevo artículo";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(443, 61);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(148, 22);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Nuevo artículo";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(831, 61);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 22);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Nuevo artículo";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(48, 220);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(280, 21);
-            this.comboBox1.TabIndex = 10;
             // 
             // PISYS
             // 
@@ -886,7 +844,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1280, 720);
-            this.MinimumSize = new System.Drawing.Size(1280, 720);
+            this.MinimumSize = new System.Drawing.Size(1280, 718);
             this.Name = "PISYS";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.PlantillaDeFormulario_Load);
@@ -899,6 +857,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1)).EndInit();
             this.kryptonSplitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSeparator1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.toolStripRuta.ResumeLayout(false);
             this.toolStripRuta.PerformLayout();
             this.toolStripSesion.ResumeLayout(false);
@@ -909,16 +868,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanelAgregarArticulo)).EndInit();
             this.kryptonPanelAgregarArticulo.ResumeLayout(false);
             this.kryptonPanelAgregarArticulo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).EndInit();
+            this.kryptonPanel1.ResumeLayout(false);
+            this.kryptonPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonSeparator2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHerramientasInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxReporteDeVentasInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRealizarVentaInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInventarioInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAgregarArticuloInicio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).EndInit();
-            this.kryptonPanel1.ResumeLayout(false);
-            this.kryptonPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonSeparator2)).EndInit();
             this.ResumeLayout(false);
 
         }

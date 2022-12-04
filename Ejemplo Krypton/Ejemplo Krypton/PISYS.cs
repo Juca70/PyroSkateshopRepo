@@ -1,4 +1,6 @@
 ﻿using ComponentFactory.Krypton.Toolkit;
+using Ejemplo_Krypton.Controlador;
+using Ejemplo_Krypton.Modelo.Entidad;
 using System;
 
 namespace Ejemplo_Krypton
@@ -13,7 +15,13 @@ namespace Ejemplo_Krypton
 
         private void PlantillaDeFormulario_Load(object sender, EventArgs e)
         {
+            IniciarSesion form = new IniciarSesion();
+            form.ShowDialog();
 
+            if (Utils.Usuario == null && Utils.Usuario.TipoUsuario != "Administrador")
+            {
+                this.Dispose();
+            }
         }
 
         private void kryptonButtonAgregarArticulo_Click(object sender, EventArgs e)

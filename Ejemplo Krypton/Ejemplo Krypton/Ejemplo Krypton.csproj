@@ -60,12 +60,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controlador\Utils.cs" />
     <Compile Include="F1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F1.Designer.cs">
       <DependentUpon>F1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Entidad\Articulo.cs" />
+    <Compile Include="Modelo\Entidad\Categoria.cs" />
+    <Compile Include="Modelo\Entidad\Usuario.cs" />
+    <Compile Include="Modelo\Table\ArticuloTable.cs" />
+    <Compile Include="Modelo\Table\Table.cs" />
+    <Compile Include="Modelo\Table\TableManager.cs" />
+    <Compile Include="Modelo\Table\UsuarioTable.cs" />
     <Compile Include="PISYS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,5 +207,6 @@
   <ItemGroup>
     <None Include="Resources\PyroskateshopLogo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

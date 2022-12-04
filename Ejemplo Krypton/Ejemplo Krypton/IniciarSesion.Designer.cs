@@ -32,13 +32,14 @@
             this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.labelOlvidasteContraseña = new System.Windows.Forms.Label();
             this.buttonIngresar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBoxNombre = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
             this.labelo = new System.Windows.Forms.Label();
             this.kryptonSeparator2 = new ComponentFactory.Krypton.Toolkit.KryptonSeparator();
             this.kryptonSeparator1 = new ComponentFactory.Krypton.Toolkit.KryptonSeparator();
             this.labelSlogan = new System.Windows.Forms.Label();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.labelIncorrecto = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanelInicioDeSesion)).BeginInit();
             this.kryptonPanelInicioDeSesion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
@@ -60,10 +61,11 @@
             // 
             // kryptonPanel1
             // 
+            this.kryptonPanel1.Controls.Add(this.labelIncorrecto);
             this.kryptonPanel1.Controls.Add(this.labelOlvidasteContraseña);
             this.kryptonPanel1.Controls.Add(this.buttonIngresar);
-            this.kryptonPanel1.Controls.Add(this.textBox1);
-            this.kryptonPanel1.Controls.Add(this.textBoxNombre);
+            this.kryptonPanel1.Controls.Add(this.txtPassword);
+            this.kryptonPanel1.Controls.Add(this.txtUsername);
             this.kryptonPanel1.Controls.Add(this.labelo);
             this.kryptonPanel1.Controls.Add(this.kryptonSeparator2);
             this.kryptonPanel1.Controls.Add(this.kryptonSeparator1);
@@ -72,7 +74,7 @@
             this.kryptonPanel1.Location = new System.Drawing.Point(92, 80);
             this.kryptonPanel1.Name = "kryptonPanel1";
             this.kryptonPanel1.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.ContextMenuInner;
-            this.kryptonPanel1.Size = new System.Drawing.Size(316, 443);
+            this.kryptonPanel1.Size = new System.Drawing.Size(316, 471);
             this.kryptonPanel1.TabIndex = 0;
             // 
             // labelOlvidasteContraseña
@@ -83,7 +85,7 @@
             this.labelOlvidasteContraseña.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelOlvidasteContraseña.Font = new System.Drawing.Font("Lucida Sans", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOlvidasteContraseña.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelOlvidasteContraseña.Location = new System.Drawing.Point(75, 428);
+            this.labelOlvidasteContraseña.Location = new System.Drawing.Point(75, 453);
             this.labelOlvidasteContraseña.Name = "labelOlvidasteContraseña";
             this.labelOlvidasteContraseña.Size = new System.Drawing.Size(167, 15);
             this.labelOlvidasteContraseña.TabIndex = 8;
@@ -99,7 +101,7 @@
             this.buttonIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonIngresar.Font = new System.Drawing.Font("Lucida Sans", 11.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonIngresar.ForeColor = System.Drawing.Color.White;
-            this.buttonIngresar.Location = new System.Drawing.Point(0, 366);
+            this.buttonIngresar.Location = new System.Drawing.Point(0, 391);
             this.buttonIngresar.MaximumSize = new System.Drawing.Size(314, 45);
             this.buttonIngresar.MinimumSize = new System.Drawing.Size(314, 45);
             this.buttonIngresar.Name = "buttonIngresar";
@@ -109,29 +111,30 @@
             this.buttonIngresar.UseVisualStyleBackColor = false;
             this.buttonIngresar.Click += new System.EventHandler(this.buttonIngresar_Click);
             // 
-            // textBox1
+            // txtPassword
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Lucida Sans", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(1, 302);
-            this.textBox1.MaximumSize = new System.Drawing.Size(314, 45);
-            this.textBox1.MaxLength = 50;
-            this.textBox1.MinimumSize = new System.Drawing.Size(314, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(314, 45);
-            this.textBox1.TabIndex = 6;
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPassword.Font = new System.Drawing.Font("Lucida Sans", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(1, 302);
+            this.txtPassword.MaximumSize = new System.Drawing.Size(314, 45);
+            this.txtPassword.MaxLength = 50;
+            this.txtPassword.MinimumSize = new System.Drawing.Size(314, 45);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(314, 45);
+            this.txtPassword.TabIndex = 6;
             // 
-            // textBoxNombre
+            // txtUsername
             // 
-            this.textBoxNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxNombre.Font = new System.Drawing.Font("Lucida Sans", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNombre.Location = new System.Drawing.Point(1, 250);
-            this.textBoxNombre.MaximumSize = new System.Drawing.Size(314, 45);
-            this.textBoxNombre.MaxLength = 50;
-            this.textBoxNombre.MinimumSize = new System.Drawing.Size(314, 45);
-            this.textBoxNombre.Name = "textBoxNombre";
-            this.textBoxNombre.Size = new System.Drawing.Size(314, 45);
-            this.textBoxNombre.TabIndex = 5;
+            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUsername.Font = new System.Drawing.Font("Lucida Sans", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.Location = new System.Drawing.Point(1, 250);
+            this.txtUsername.MaximumSize = new System.Drawing.Size(314, 45);
+            this.txtUsername.MaxLength = 50;
+            this.txtUsername.MinimumSize = new System.Drawing.Size(314, 45);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(314, 45);
+            this.txtUsername.TabIndex = 5;
             // 
             // labelo
             // 
@@ -190,6 +193,16 @@
             this.pictureBoxLogo.TabIndex = 0;
             this.pictureBoxLogo.TabStop = false;
             // 
+            // labelIncorrecto
+            // 
+            this.labelIncorrecto.BackColor = System.Drawing.Color.White;
+            this.labelIncorrecto.ForeColor = System.Drawing.Color.Red;
+            this.labelIncorrecto.Location = new System.Drawing.Point(3, 356);
+            this.labelIncorrecto.Name = "labelIncorrecto";
+            this.labelIncorrecto.Size = new System.Drawing.Size(310, 23);
+            this.labelIncorrecto.TabIndex = 9;
+            this.labelIncorrecto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // IniciarSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -229,9 +242,10 @@
         private System.Windows.Forms.Label labelSlogan;
         private ComponentFactory.Krypton.Toolkit.KryptonSeparator kryptonSeparator2;
         private System.Windows.Forms.Label labelo;
-        private System.Windows.Forms.TextBox textBoxNombre;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button buttonIngresar;
         private System.Windows.Forms.Label labelOlvidasteContraseña;
+        private System.Windows.Forms.Label labelIncorrecto;
     }
 }
