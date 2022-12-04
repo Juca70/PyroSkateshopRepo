@@ -20,6 +20,8 @@ namespace PISYS.modelo.Table
 
         private CategoriaTable categoriaTable;
 
+        private UsuarioTable usuarioTable;
+
         public void TryConnection()
         {
             SqlConnection conn = null;
@@ -59,6 +61,19 @@ namespace PISYS.modelo.Table
                 }
 
                 return categoriaTable;
+            }
+        }
+
+        public UsuarioTable UsuarioTable
+        {
+            get
+            {
+                if (usuarioTable == null)
+                {
+                    return new UsuarioTable(stringConnection);
+                }
+
+                return usuarioTable;
             }
         }
 

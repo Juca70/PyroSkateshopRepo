@@ -24,42 +24,31 @@ namespace PISYS
         {
             TableManager manager = new TableManager();
 
-            /*Articulo a = new Articulo();
-            a.Id = 22;
+            /*List<Articulo> lista = manager.ArticuloTable.ObtenerTodos();
 
-            Categoria c = new Categoria();
-            c.Id = 3;
-
-            a.Categoria = c;
-            a.Descripcion = "Patineta Bien Padre";
-            a.Marca = "La mejor";
-            a.Medida = "XXX";
-            a.CantExistencia = 100;
-            a.CostoCompra = 500;
-            a.CostoDolares = 20;
-            a.PrecioVenta = 750;
-            a.Estado = "Activo";
-
-            manager.ArticuloTable.Modifificar(a);*/
-            
-            List<Articulo> lista = manager.ArticuloTable.ObtenerPorTipo("Hardgoods");
-
-
-            foreach (Articulo a in lista)
+            foreach (Articulo articulo in lista)
             {
-                int row = dataGridView1.Rows.Add();
-                dataGridView1.Rows[row].Cells[0].Value = a.Id;
-                dataGridView1.Rows[row].Cells[1].Value = a.Categoria.Descripcion;
-                dataGridView1.Rows[row].Cells[2].Value = a.Categoria.Tipo;
-                dataGridView1.Rows[row].Cells[3].Value = a.Descripcion;
-                dataGridView1.Rows[row].Cells[4].Value = a.Marca;
-                dataGridView1.Rows[row].Cells[5].Value = a.Medida;
-                dataGridView1.Rows[row].Cells[6].Value = a.CantExistencia;
-                dataGridView1.Rows[row].Cells[7].Value = a.CostoCompra;
-                dataGridView1.Rows[row].Cells[8].Value = a.CostoDolares;
-                dataGridView1.Rows[row].Cells[9].Value = a.PrecioVenta;
-                dataGridView1.Rows[row].Cells[10].Value = a.Estado;
-            }
+                int row = kryptonDataGridView1.Rows.Add();
+
+                kryptonDataGridView1.Rows[row].Cells[0].Value = articulo.Id;
+                kryptonDataGridView1.Rows[row].Cells[1].Value = articulo.Categoria.Descripcion;
+                kryptonDataGridView1.Rows[row].Cells[2].Value = articulo.Categoria.Tipo;
+                kryptonDataGridView1.Rows[row].Cells[3].Value = articulo.Descripcion;
+                kryptonDataGridView1.Rows[row].Cells[4].Value = articulo.Marca;
+                kryptonDataGridView1.Rows[row].Cells[5].Value = articulo.Medida;
+                kryptonDataGridView1.Rows[row].Cells[6].Value = articulo.CantExistencia;
+                kryptonDataGridView1.Rows[row].Cells[7].Value = articulo.CostoCompra;
+                kryptonDataGridView1.Rows[row].Cells[8].Value = articulo.CostoDolares;
+                kryptonDataGridView1.Rows[row].Cells[9].Value = articulo.PrecioVenta;
+                kryptonDataGridView1.Rows[row].Cells[10].Value = articulo.Estado;
+            }*/
+
+            Usuario usuario = manager.UsuarioTable.Obtener("Admin", "12345");
+
+            
+            
+            MessageBox.Show("Usuario: " + usuario.Nombre + " "+ usuario.Contraseña);
+            
         }
     }
 }

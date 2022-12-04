@@ -64,6 +64,7 @@
     <Compile Include="modelo\Entidades\Venta.cs" />
     <Compile Include="modelo\Table\CategoriaTable.cs" />
     <Compile Include="modelo\Table\TableManager.cs" />
+    <Compile Include="modelo\Table\UsuarioTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="modelo\Table\Table.cs" />
