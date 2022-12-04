@@ -11,15 +11,35 @@ namespace PISYS
         //T -> el tipo de dato del modelo
         //K -> el tipo de dato de la llave primaria
 
-        //Inserta la información en la tabla de la base de datos
+        ///<summary>
+        ///Inserta el objeto pasado por parámetro en la tabla
+        ///</summary>
+        ///<param name="obj"></param>
         void Insertar(T obj);
-        //Modifica la información de una tupla en una tabla
+        
+        ///<summary>
+        ///Modifica el objeto pasado por parámetro en la tabla
+        /// </summary>
+        /// <param name="obj"></param>
         void Modifificar(T obj);
-        //Elimina la información de una tupla en una tabla
+        
+        /// <summary>
+        /// Elimina el objeto pasado por parámetro en la tabla
+        /// </summary>
+        /// <param name="obj"></param>
         void Eliminar(T obj);
-        //Obtiene todas la tuplas de una tabla en una tabla
+        
+        /// <summary>
+        /// Regresa una lista con todos las tuplas de la tabla
+        /// </summary>
+        /// <returns>Una lista con todas las tuplas de la tabla</returns>
         List<T> ObtenerTodos();
-        //Obtienen una tupla en especifico
+        
+        /// <summary>
+        /// Regresa la tupla según el Id pasado por parámetro
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>La tupla específicada por el Id</returns>
         T Obtener(K id);
         
     }
