@@ -293,6 +293,16 @@ namespace Ejemplo_Krypton.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PyroskateshopLogo {
+            get {
+                object obj = ResourceManager.GetObject("PyroskateshopLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tabler_report {
             get {
                 object obj = ResourceManager.GetObject("tabler_report", resourceCulture);

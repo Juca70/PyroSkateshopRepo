@@ -13,7 +13,8 @@ namespace Ejemplo_Krypton
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PlantillaDeFormulario());
+            Application.Run(new IniciarSesion());
+            //Application.Run(new PISYS());
         }
     }
 }
