@@ -29,13 +29,6 @@
         private void InitializeComponent()
         {
             this.panelMenuLateral = new System.Windows.Forms.Panel();
-            this.kryptonSeparatorMenuLateral = new ComponentFactory.Krypton.Toolkit.KryptonSeparator();
-            this.panelEncabezado = new System.Windows.Forms.Panel();
-            this.labelHeaderUsuario = new System.Windows.Forms.Label();
-            this.panelSubEncabezado = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.panelContenido = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonLogoMenu = new System.Windows.Forms.Button();
             this.buttonCerrarSesionMenu = new System.Windows.Forms.Button();
             this.buttonHerramientasMenu = new System.Windows.Forms.Button();
@@ -43,11 +36,22 @@
             this.buttonVentaMenu = new System.Windows.Forms.Button();
             this.buttonInventarioMenu = new System.Windows.Forms.Button();
             this.buttonAgregarMenu = new System.Windows.Forms.Button();
+            this.kryptonSeparatorMenuLateral = new ComponentFactory.Krypton.Toolkit.KryptonSeparator();
+            this.panelEncabezado = new System.Windows.Forms.Panel();
+            this.labelHeaderUsuario = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelSubEncabezado = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.panelContenido = new System.Windows.Forms.Panel();
+            this.pictureBoxMinimizarVentana = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCerrarVentana = new System.Windows.Forms.PictureBox();
             this.panelMenuLateral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSeparatorMenuLateral)).BeginInit();
             this.panelEncabezado.SuspendLayout();
-            this.panelSubEncabezado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelSubEncabezado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinimizarVentana)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarVentana)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenuLateral
@@ -69,72 +73,6 @@
             this.panelMenuLateral.Size = new System.Drawing.Size(186, 1024);
             this.panelMenuLateral.TabIndex = 0;
             this.panelMenuLateral.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // kryptonSeparatorMenuLateral
-            // 
-            this.kryptonSeparatorMenuLateral.Location = new System.Drawing.Point(-1, 194);
-            this.kryptonSeparatorMenuLateral.Name = "kryptonSeparatorMenuLateral";
-            this.kryptonSeparatorMenuLateral.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            this.kryptonSeparatorMenuLateral.Size = new System.Drawing.Size(186, 3);
-            this.kryptonSeparatorMenuLateral.TabIndex = 1;
-            // 
-            // panelEncabezado
-            // 
-            this.panelEncabezado.BackColor = System.Drawing.Color.White;
-            this.panelEncabezado.Controls.Add(this.labelHeaderUsuario);
-            this.panelEncabezado.Controls.Add(this.pictureBox1);
-            this.panelEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEncabezado.Location = new System.Drawing.Point(186, 0);
-            this.panelEncabezado.Name = "panelEncabezado";
-            this.panelEncabezado.Size = new System.Drawing.Size(1254, 67);
-            this.panelEncabezado.TabIndex = 1;
-            this.panelEncabezado.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
-            // 
-            // labelHeaderUsuario
-            // 
-            this.labelHeaderUsuario.AutoSize = true;
-            this.labelHeaderUsuario.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHeaderUsuario.Location = new System.Drawing.Point(1032, 24);
-            this.labelHeaderUsuario.Name = "labelHeaderUsuario";
-            this.labelHeaderUsuario.Size = new System.Drawing.Size(136, 22);
-            this.labelHeaderUsuario.TabIndex = 1;
-            this.labelHeaderUsuario.Text = "Hola, Usuario";
-            // 
-            // panelSubEncabezado
-            // 
-            this.panelSubEncabezado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.panelSubEncabezado.Controls.Add(this.dateTimePicker1);
-            this.panelSubEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubEncabezado.Location = new System.Drawing.Point(186, 67);
-            this.panelSubEncabezado.Name = "panelSubEncabezado";
-            this.panelSubEncabezado.Size = new System.Drawing.Size(1254, 51);
-            this.panelSubEncabezado.TabIndex = 2;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(1027, 16);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(197, 20);
-            this.dateTimePicker1.TabIndex = 0;
-            // 
-            // panelContenido
-            // 
-            this.panelContenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.panelContenido.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenido.Location = new System.Drawing.Point(186, 118);
-            this.panelContenido.Name = "panelContenido";
-            this.panelContenido.Size = new System.Drawing.Size(1254, 906);
-            this.panelContenido.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Pyroskateshop_Inventory_System.Properties.Resources.IconoUsuario;
-            this.pictureBox1.Location = new System.Drawing.Point(1174, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // buttonLogoMenu
             // 
@@ -270,7 +208,98 @@
             this.buttonAgregarMenu.UseVisualStyleBackColor = false;
             this.buttonAgregarMenu.Click += new System.EventHandler(this.buttonAgregarMenu_Click);
             // 
-            // Form1
+            // kryptonSeparatorMenuLateral
+            // 
+            this.kryptonSeparatorMenuLateral.Location = new System.Drawing.Point(-1, 194);
+            this.kryptonSeparatorMenuLateral.Name = "kryptonSeparatorMenuLateral";
+            this.kryptonSeparatorMenuLateral.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            this.kryptonSeparatorMenuLateral.Size = new System.Drawing.Size(186, 3);
+            this.kryptonSeparatorMenuLateral.TabIndex = 1;
+            // 
+            // panelEncabezado
+            // 
+            this.panelEncabezado.BackColor = System.Drawing.Color.White;
+            this.panelEncabezado.Controls.Add(this.pictureBoxMinimizarVentana);
+            this.panelEncabezado.Controls.Add(this.pictureBoxCerrarVentana);
+            this.panelEncabezado.Controls.Add(this.labelHeaderUsuario);
+            this.panelEncabezado.Controls.Add(this.pictureBox1);
+            this.panelEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelEncabezado.Location = new System.Drawing.Point(186, 0);
+            this.panelEncabezado.Name = "panelEncabezado";
+            this.panelEncabezado.Size = new System.Drawing.Size(1254, 67);
+            this.panelEncabezado.TabIndex = 1;
+            this.panelEncabezado.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
+            // 
+            // labelHeaderUsuario
+            // 
+            this.labelHeaderUsuario.AutoSize = true;
+            this.labelHeaderUsuario.Font = new System.Drawing.Font("Lucida Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHeaderUsuario.Location = new System.Drawing.Point(968, 24);
+            this.labelHeaderUsuario.Name = "labelHeaderUsuario";
+            this.labelHeaderUsuario.Size = new System.Drawing.Size(136, 22);
+            this.labelHeaderUsuario.TabIndex = 1;
+            this.labelHeaderUsuario.Text = "Hola, Usuario";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Pyroskateshop_Inventory_System.Properties.Resources.IconoUsuario;
+            this.pictureBox1.Location = new System.Drawing.Point(1110, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panelSubEncabezado
+            // 
+            this.panelSubEncabezado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.panelSubEncabezado.Controls.Add(this.dateTimePicker1);
+            this.panelSubEncabezado.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubEncabezado.Location = new System.Drawing.Point(186, 67);
+            this.panelSubEncabezado.Name = "panelSubEncabezado";
+            this.panelSubEncabezado.Size = new System.Drawing.Size(1254, 51);
+            this.panelSubEncabezado.TabIndex = 2;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(1027, 16);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(197, 20);
+            this.dateTimePicker1.TabIndex = 0;
+            // 
+            // panelContenido
+            // 
+            this.panelContenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.panelContenido.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContenido.Location = new System.Drawing.Point(186, 118);
+            this.panelContenido.Name = "panelContenido";
+            this.panelContenido.Size = new System.Drawing.Size(1254, 906);
+            this.panelContenido.TabIndex = 3;
+            // 
+            // pictureBoxMinimizarVentana
+            // 
+            this.pictureBoxMinimizarVentana.Image = global::Pyroskateshop_Inventory_System.Properties.Resources.MinimizarVentana;
+            this.pictureBoxMinimizarVentana.Location = new System.Drawing.Point(1176, 16);
+            this.pictureBoxMinimizarVentana.Name = "pictureBoxMinimizarVentana";
+            this.pictureBoxMinimizarVentana.Size = new System.Drawing.Size(30, 30);
+            this.pictureBoxMinimizarVentana.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxMinimizarVentana.TabIndex = 3;
+            this.pictureBoxMinimizarVentana.TabStop = false;
+            this.pictureBoxMinimizarVentana.Click += new System.EventHandler(this.pictureBoxMinimizarVentana_Click);
+            // 
+            // pictureBoxCerrarVentana
+            // 
+            this.pictureBoxCerrarVentana.BackColor = System.Drawing.Color.White;
+            this.pictureBoxCerrarVentana.Image = global::Pyroskateshop_Inventory_System.Properties.Resources.CerrarVentana;
+            this.pictureBoxCerrarVentana.Location = new System.Drawing.Point(1212, 16);
+            this.pictureBoxCerrarVentana.Name = "pictureBoxCerrarVentana";
+            this.pictureBoxCerrarVentana.Size = new System.Drawing.Size(30, 30);
+            this.pictureBoxCerrarVentana.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxCerrarVentana.TabIndex = 2;
+            this.pictureBoxCerrarVentana.TabStop = false;
+            this.pictureBoxCerrarVentana.Click += new System.EventHandler(this.pictureBoxCerrarVentana_Click);
+            // 
+            // SistemaDeInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -281,14 +310,17 @@
             this.Controls.Add(this.panelEncabezado);
             this.Controls.Add(this.panelMenuLateral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "SistemaDeInventario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panelMenuLateral.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSeparatorMenuLateral)).EndInit();
             this.panelEncabezado.ResumeLayout(false);
             this.panelEncabezado.PerformLayout();
-            this.panelSubEncabezado.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelSubEncabezado.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinimizarVentana)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarVentana)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -310,6 +342,8 @@
         private System.Windows.Forms.Button buttonVentaMenu;
         private System.Windows.Forms.Button buttonInventarioMenu;
         private System.Windows.Forms.Button buttonLogoMenu;
+        private System.Windows.Forms.PictureBox pictureBoxMinimizarVentana;
+        private System.Windows.Forms.PictureBox pictureBoxCerrarVentana;
     }
 }
 

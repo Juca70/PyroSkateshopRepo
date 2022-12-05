@@ -1,15 +1,20 @@
-﻿using ComponentFactory.Krypton.Toolkit;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using Pyroskateshop_Inventory_System.Modelo.Table;
+using Pyroskateshop_Inventory_System.Modelo.Entidad;
 
 namespace Pyroskateshop_Inventory_System
 {
     public partial class InicioDeSesion : Form
     {
+        private TableManager manager;
+
         public InicioDeSesion()
         {
             InitializeComponent();
+            manager = new TableManager();
+            manager.TryConnection();
         }
 
         [DllImport("user32.dll", EntryPoint = "ReleaseCapture")]
@@ -25,7 +30,7 @@ namespace Pyroskateshop_Inventory_System
 
         private void textBoxUsuario_Enter(object sender, System.EventArgs e)
         {
-            if(textBoxUsuario.Text == "Nombre de usuario")
+            if (textBoxUsuario.Text == "Nombre de usuario")
             {
                 textBoxUsuario.Text = "";
                 textBoxUsuario.ForeColor = Color.Black;
@@ -34,7 +39,7 @@ namespace Pyroskateshop_Inventory_System
 
         private void textBoxUsuario_Leave(object sender, System.EventArgs e)
         {
-            if(textBoxUsuario.Text == "")
+            if (textBoxUsuario.Text == "")
             {
                 textBoxUsuario.Text = "Nombre de usuario";
                 textBoxUsuario.ForeColor = Color.DimGray;
@@ -68,7 +73,7 @@ namespace Pyroskateshop_Inventory_System
 
         private void pictureBoxMinimizarVentana_Click(object sender, System.EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+                
         }
 
         private void pictureBoxCerrarVentana_MouseHover(object sender, System.EventArgs e)
@@ -80,7 +85,7 @@ namespace Pyroskateshop_Inventory_System
         {
             pictureBoxCerrarVentana.BackColor = Color.White;
         }
-
+        
         private void pictureBoxMinimizarVentana_MouseHover(object sender, System.EventArgs e)
         {
             pictureBoxMinimizarVentana.BackColor = Color.WhiteSmoke;
@@ -88,12 +93,49 @@ namespace Pyroskateshop_Inventory_System
 
         private void pictureBoxMinimizarVentana_MouseLeave(object sender, System.EventArgs e)
         {
-            pictureBoxMinimizarVentana.BackColor= Color.White;
+            pictureBoxMinimizarVentana.BackColor = Color.White;
         }
 
         private void labelRecuperarContrasena_MouseHover(object sender, System.EventArgs e)
         {
 
+        }
+
+        private void buttonIngresar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void buttonIngresar_Click(object sender, System.EventArgs e)
+        {
+            Conectar();
+            
+        }
+
+        private void Conectar()
+        {
+            string username = textBoxUsuario.Text.Trim().Equals("Nombre de usuario") ? "" : textBoxUsuario.Text;
+            string password = textBoxContrasena.Text.Trim().Equals("Contraseña") ? "" : textBoxContrasena.Text;
+
+            if(username.Length>0 && password.Length>0)
+            {
+                Usuario usuario = manager.UsuarioTable.Obtener(username, password);
+
+                if (usuario != null)
+                {
+                    this.Hide();
+                    SistemaDeInventario form = new SistemaDeInventario();
+                    form.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña o nombre de usuario incorrectos", "Pendejo");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Llena todos los campos", "Pendejo");
+            }
         }
     }
 }

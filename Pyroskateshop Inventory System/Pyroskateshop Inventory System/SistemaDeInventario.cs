@@ -46,12 +46,22 @@ namespace Pyroskateshop_Inventory_System
 
         private void buttonAgregarMenu_Click(object sender, System.EventArgs e)
         {
-
+            AbrirFormulario(new AgregarArticulo());
         }
 
         private void buttonLogoMenu_Click(object sender, System.EventArgs e)
         {
             AbrirFormulario(new Inicio());
+        }
+
+        private void pictureBoxMinimizarVentana_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBoxCerrarVentana_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
